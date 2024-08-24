@@ -1,4 +1,4 @@
-"use client";
+//"use client";
 
 import getCategory from "@/actions/get-category";
 import getColors from "@/actions/get-colors";
@@ -11,7 +11,7 @@ import NoResults from "@/components/ui/no-results";
 import ProductCard from "@/components/ui/product-card";
 import MobileFilters from "./components/mobile-filters";
 
-//export const revalidate= 0;
+export const revalidate= 0;
 
 interface CategoryPageProps {
    params: {
